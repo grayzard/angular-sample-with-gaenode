@@ -7,6 +7,18 @@ $ cd source
 $ npm init
 $ npm isntall -s express
 $ npm install -s body-parser
+$ npm install -s zone.js
+$ npm install -s reflect-metadata
+$ npm install -s @angular/core
+$ npm install -s rxjs
+$ npm install -s @angular/platform-server
+$ npm install -s @angular/platform-browser
+$ npm install -s @angular/common
+$ npm install -s @angular/http
+$ npm install -s @angular/compiler
+$ npm install -s @angular/animations
+$ npm install -s @angular/platform-browser-dynamic
+$ npm install -s @angular/router
 $ npm install
 ```
 

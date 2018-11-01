@@ -11,7 +11,19 @@
   "license": "MIT",
   "repository": "gaenode",
   "dependencies": {
+    "@angular/animations": "^7.0.2",
+    "@angular/common": "^7.0.2",
+    "@angular/compiler": "^7.0.2",
+    "@angular/core": "^7.0.2",
+    "@angular/http": "^7.0.2",
+    "@angular/platform-browser": "^7.0.2",
+    "@angular/platform-browser-dynamic": "^7.0.2",
+    "@angular/platform-server": "^7.0.2",
+    "@angular/router": "^7.0.2",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.3",
+    "zone.js": "^0.8.26"
   }
 }

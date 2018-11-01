@@ -5,6 +5,7 @@
 $ npm i -g @angular/cli
 $ ng new source --routing --style=scss
 $ cd source
+$ ng g universal --client-project=source
 $ npm install
 ```
 
@@ -19,4 +20,5 @@ $ npm run start
 ```
 $ cd source
 $ npm run ng build --prod --aot           # クライアント
+$ npm run ng run source:server            # サーバー
 ```
