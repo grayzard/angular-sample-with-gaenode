@@ -15,3 +15,11 @@
 
 # Node.js dependencies:
 node_modules/
+
+# TypeScript files.
+app.ts
+tsconfig.dev.json
+tsconfig.prod.json
+tslint.json
+webpack.config.dev.js
+webpack.config.prod.js
