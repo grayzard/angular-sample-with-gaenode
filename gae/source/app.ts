@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 
 // Angularのファイル指定
 app.get('*.*', express.static('./dist/client', {
-  maxAge: '1y',
+  // maxAge: '1y',
 }));
 
 const indexHtml = readFileSync('./dist/client/index.html', 'utf-8').toString();

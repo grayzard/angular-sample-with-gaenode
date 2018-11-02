@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopPageComponent } from './components/top-page/top-page.component';
+import { AppShellRenderDirective } from './directives/app-shell-render.directive';
+import { AppShellNoRenderDirective } from './directives/app-shell-no-render.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopPageComponent,
+    AppShellRenderDirective,
+    AppShellNoRenderDirective,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
