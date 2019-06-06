@@ -10,6 +10,7 @@ $ npm install
 $ ng g component components/top-page --module app
 $ ng g directive directives/app-shell-render --module app
 $ ng g directive directives/app-shell-no-render --module app
+$ ng update @angular/cli @angular/core
 ```
 
 ## 開発環境での実行方法
